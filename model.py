@@ -6,7 +6,7 @@ import math
 import numpy as np
 import sys 
 sys.path.append("Zero_DCE_master");
-
+import numpy
 class enhance_net_nopool(nn.Module):
 
 	def __init__(self):
